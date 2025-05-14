@@ -6,18 +6,23 @@
 
  <body>
  <a-scene>
+ <a-scene>
     <!-- Suelo -->
-    <a-box position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#2E8B57"></a-plane>
+    <a-box position="0 0 -4" rotation="-90 0 0" width="6" height="6" depth="0.1" color="#2E8B57"></a-box>
 
-    <!-- Pared izquierda -->
-    <a-box position="-2 2 -4" rotation="0 90 0" width="4" height="4" color="#1E90FF"></a-plane>
+    <!-- Pared izquierda (más delgada) -->
+    <a-box position="-3 3 -4" rotation="0 90 0" width="6" height="6" depth="0.1" color="#1E90FF"></a-box>
 
-    <!-- Pared derecha -->
-    <a-box position="2 2 -4" rotation="0 -90 0" width="4" height="4" color="#DC143C"></a-plane>
+    <!-- Pared derecha (más delgada) -->
+    <a-box position="3 3 -4" rotation="0 -90 0" width="6" height="6" depth="0.1" color="#DC143C"></a-box>
 
-    <!-- Pared de fondo -->
-    <a-box position="0 2 -6" rotation="0 0 0" width="4" height="4" color="#800080"></a-plane>
+    <!-- Pared de fondo (más delgada) -->
+    <a-box position="0 3 -7" rotation="0 0 0" width="6" height="6" depth="0.1" color="#800080"></a-box>
+
+    <!-- Techo (más delgado) -->
+    <a-box position="0 6 -4" rotation="90 0 0" width="6" height="6" depth="0.1" color="#D3D3D3"></a-box>
 </a-scene>
+
 
 
  </body>    
